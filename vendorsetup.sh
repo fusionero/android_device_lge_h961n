@@ -1,1 +1,1 @@
-add_lunch_combo omni_h901-userdebug
+add_lunch_combo omni_h961n-userdebug
