@@ -29,7 +29,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x0000000 --ramdisk_offset 0x02200000 --
 # prebuilt kernel
 TARGET_PREBUILT_KERNEL := device/lge/h961n/kernel
 # else uncomment below to build from sauce
-# TARGET_KERNEL_SOURCE := kernel/lge/h901
+# TARGET_KERNEL_SOURCE := kernel/lge/h961n
 # TARGET_KERNEL_CONFIG := pplus_tmo_us-perf_defconfig
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 41943040
