@@ -24,10 +24,10 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 us
  
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x0000000 --ramdisk_offset 0x02200000 --tags_offset 0x00000100 --dt device/lge/h901/dt.img
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x0000000 --ramdisk_offset 0x02200000 --tags_offset 0x00000100 --dt device/lge/h961n/dt.img
 
 # prebuilt kernel
-TARGET_PREBUILT_KERNEL := device/lge/h901/kernel
+TARGET_PREBUILT_KERNEL := device/lge/h961n/kernel
 # else uncomment below to build from sauce
 # TARGET_KERNEL_SOURCE := kernel/lge/h901
 # TARGET_KERNEL_CONFIG := pplus_tmo_us-perf_defconfig
@@ -42,7 +42,7 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-#TARGET_RECOVERY_FSTAB := device/lge/h901/twrp.fstab
+#TARGET_RECOVERY_FSTAB := device/lge/h961n/twrp.fstab
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 
 TW_THEME := portrait_hdpi
