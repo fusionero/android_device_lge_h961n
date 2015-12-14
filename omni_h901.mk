@@ -31,10 +31,10 @@ PRODUCT_PACKAGES += \
     charger
 
 #PRODUCT_COPY_FILES += \
-#    device/lge/h901/kernel:kernel
+#    device/lge/h961n/kernel:kernel
 
-PRODUCT_NAME := omni_h901
-PRODUCT_DEVICE := h901
+PRODUCT_NAME := omni_h961n
+PRODUCT_DEVICE := h961n
 PRODUCT_BRAND := LG
 PRODUCT_MODEL := V10
 PRODUCT_MANUFACTURER := LG
