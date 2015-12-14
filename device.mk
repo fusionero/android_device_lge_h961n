@@ -15,4 +15,4 @@
 #
 
 PRODUCT_COPY_FILES += \
-    device/lge/h901/kernel:kernel
+    device/lge/h961n/kernel:kernel
